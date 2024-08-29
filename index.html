@@ -750,7 +750,7 @@ body {
 
 
         (function() {
-            emailjs.init("WaO0QdAst3R2zeAGt"); // Reemplazado con un ID de usuario de ejemplo
+            emailjs.init("50UW79jdQZ8Zq54ZX"); // Reemplazado con un ID de usuario de ejemplo
         })();
 
         document.addEventListener('DOMContentLoaded', (event) => {
@@ -768,7 +768,7 @@ body {
 
                 // Preparar el contenido del correo
                 const templateParams = {
-                    to_email: 'jos.lucero.pruebas@gmail.com',
+                    to_email: 'tercerasjornadasumf49@gmail.com',
                     from_name: nombreCompleto,
                     message: `Nuevo registro para el evento:
                         Nombre: ${nombreCompleto}
@@ -779,7 +779,7 @@ body {
                         Categoría: ${categoria}`
                 };
 					// Enviar el correo usando EmailJS
-					emailjs.send('service_13d7p6m', 'template_me9qegi', templateParams)
+					emailjs.send('service_nj81fd4', 'template_grqcgq7', templateParams)
                     .then(function(response) {
                         console.log('SUCCESS!', response.status, response.text);
 										alert(emailInput.value);
